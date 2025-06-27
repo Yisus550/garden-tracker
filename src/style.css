@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+* {
+  outline: none;
+  /* outline: 1px solid red; */
+  @apply font-family;
+}
+
+@theme {
+  --font-family: "Inter", sans-serif;
+
+  --color-garden-50: #f0f9f0;
+  --color-garden-100: #dcf2dc;
+  --color-garden-200: #bce5bc;
+  --color-garden-300: #8fd18f;
+  --color-garden-400: #5cb85c;
+  --color-garden-500: #4a934a;
+  --color-garden-600: #3a7c3a;
+  --color-garden-700: #2f632f;
+  --color-garden-800: #285028;
+  --color-garden-900: #234323;
+  --color-garden-950: #0f240f;
+
+  --color-earth-50: #faf8f3;
+  --color-earth-100: #f4f0e6;
+  --color-earth-200: #e8dcc6;
+  --color-earth-300: #d7c49e;
+  --color-earth-400: #c4a574;
+  --color-earth-500: #b69356;
+  --color-earth-600: #a8814a;
+  --color-earth-700: #8b6a3e;
+  --color-earth-800: #715636;
+  --color-earth-900: #5c472e;
+  --color-earth-950: #312517;
+
+  --color-sage-50: #f6f7f6;
+  --color-sage-100: #e3e7e3;
+  --color-sage-200: #c7cfc7;
+  --color-sage-300: #9fb0a0;
+  --color-sage-400: #768c78;
+  --color-sage-500: #5a715c;
+  --color-sage-600: #455a47;
+  --color-sage-700: #39493b;
+  --color-sage-800: #2f3c31;
+  --color-sage-900: #283329;
+  --color-sage-950: #141c15;
+}
